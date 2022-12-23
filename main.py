@@ -1,3 +1,4 @@
+# os is for the clearing of console
 import os
 import art as gfx
 
@@ -6,6 +7,7 @@ winnerBanner = gfx.winner
 noMoreBids = gfx.finish
 bids_taken = {}
 
+# this function loops
 def highest_bidder(bidding_record):
     print(noMoreBids)
     input("--- All Bidding has ceased! ---\n\n\nPress 'ENTER' to reveal winner")
@@ -21,7 +23,7 @@ def highest_bidder(bidding_record):
     print(winnerBanner)
     print(f"Congratulation to {winner}, with a bid of ${top_bid}")
 
-# initial text
+# initial text you see when loading the program
 print(logo)
 print("Welcome to the secret Auction Program!\n")
 
